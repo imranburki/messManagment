@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewpoint" content="width=device-width", initial-scale=1.0/>
+       <link rel="stylesheet" type="text/css" href="css/all.css"/>
+        <link rel="stylesheet" href="stylesheet.css"/>
+    </head>
+    <body>
+        <div class="header">
+                <i id="phone" class="fa fa-phone" aria-hidden="true"></i>    
+                <p>03075001676</p>    
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a>|</a></li>
+                    <li><a href="#">Register</a></li>
+                </ul>
+        </div>
+        <nav>
+            <label class="logo">Perfekt Mess</label>
+            <ul>
+                <li><a href="#"><i class="fa fa-home"></i> <p>Home</p> </a></li>
+                <li><a href="">|</a></li>
+                <li><a href="#"><i class="fas fa-hamburger"></i><p>Home</p></a></li>
+                <li><a href="">|</a></li>
+                <li><a href="#"><i class="fa fa-bars" aria-hidden="true"><p>Menu</p></i></a></li>
+                <li><a href="">|</a></li>
+                <li><a href="#"><i class="fas fa-calculator"></i><p>Finance</p></a></li>
+                <li><a href="">|</a></li>
+                <li><a href="#"><i class="fas fa-calculator"></i><p>Home</p></a></li>
+                <li><a href="">|</a></li>
+                <li><a href="#"><i class="fas fa-users"></i><p>Groups</p></a></li>
+                <li><a href="">|</a></li>
+                <li><a href="#"><i class="fas fa-user"></i><p>Account</p></a></li>
+            </ul>
+            <p class="search"><i class="fas fa-search"></i></p>
+            <input id='1' type="text" class="search-txtb"> 
+        </nav>
+        <div>
+            <img src="img.jpg" class="img"/>
+            <h1 style="text-align: center; color:white; padding-top: 50px;"><u>Perfekt Mess</u></h1>
+        </div>
+        <div>
+            <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+        <script>
+            window.addEventListener("scroll",function(){
+                var nav=document.querySelector("nav");
+                nav.classList.toggle("sticky", window.scrollY >0); 
+            })
+        </script>
+    </body>
+</html>

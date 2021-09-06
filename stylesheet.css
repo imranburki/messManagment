@@ -1,0 +1,104 @@
+html,body{
+    
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: linear-gradient(45deg,gray 35%, black 20%);
+  } 
+  .header p{
+      display: inline-block;
+      margin-left: 10px;
+      color: white;
+  }
+  .header ul{
+      display: inline;
+      float: right;
+      margin-right: 20px;
+  }
+  .header ul li{
+      display: inline-block;
+  }
+  .header ul li a{
+      text-decoration: none;
+      color:white;
+  }
+  #phone{
+      padding-left: 250px;
+      color: white;
+      margin-left: 80px;
+  }
+
+  label.logo{
+      font-size: 35px;
+      padding: 0px 100px;
+      float: left;
+  }
+  nav{
+      position: sticky;
+      top: 0;
+      width: 100%;
+  }
+  nav.sticky{
+      background:lightcyan;
+      
+  }
+  nav.sticky ul li a{
+      background: white;
+  }
+  nav ul{
+      float: left;
+  }
+  nav ul li{
+      display: inline-block;
+      margin: 0px 5px;
+  }
+  nav ul li a{
+      text-decoration: none;
+  }
+  nav ul li a p{
+      display: none;
+  }
+  nav ul li a:hover p{
+      display: inline;
+      top:0px;
+      left: 10px;
+      color: red;
+  }
+  nav p.search{
+    display: inline-block;
+     background-color:indianred;
+     position: relative;
+     padding: 5px;
+     left: 496px;
+  }
+  .search-txtb:hover{
+    width: 50px;
+    left: 400px;
+    right: 0px;
+  }
+  .search-txtb{
+      display: inline;
+      position: relative;
+      width: 5px;
+      left: 450px;
+      right: 40px;
+      top: 0px;
+      height: 22px;  
+  } 
+  .img{
+      position: absolute;
+      z-index: -1;
+      top: 100px;
+      width: 100%;
+      height: 500px;
+      margin: 0px;
+      padding: 0px;
+      background-size: contain;
+  }
+  .description{
+      width: 40%;
+      margin: 0px 10px 100px 530px;
+      font-size: 30px;
+      color: white;
+  }
